@@ -16,4 +16,42 @@ def main():
     selected_plot = st.sidebar.selectbox("Pilih Titik Pengukuran", plot_options)
     
     if selected_plot == "Sungai Code Jembatan Gondolayu":
+        plt.plot(data['Konsentrasi'])
+        plt.xlabel('Baku Mutu')
+        plt.ylabel('pH Value')
+        plt.title('Variasi pH')
+        plt.show()
+
+    elif selected_plot == "Sungai Code Jembatan Sayidan":
+        plt.plot(data['Konsentrasi'])
+        plt.xlabel('Baku Mutu')
+        plt.ylabel('pH Value')
+        plt.title('Variasi pH')
+        plt.show()
+
+    elif selected_plot == "Sungai Code Petinggen":
+        plt.plot(data['Konsentrasi'])
+        plt.xlabel('Baku Mutu')
+        plt.ylabel('pH Value')
+        plt.title('Variasi pH')
+        plt.show()
+    elif selected_plot == "Sungai Code Wirogunan":
+        plt.plot(data['Konsentrasi'])
+        plt.xlabel('Baku Mutu')
+        plt.ylabel('pH Value')
+        plt.title('Variasi pH')
+        plt.show()
+    elif selected_plot == "Sungai Code Wirosaban":
+        plt.plot(data['Konsentrasi'])
+        plt.xlabel('Baku Mutu')
+        plt.ylabel('pH Value')
+        plt.title('Variasi pH')
+        plt.show()
+        
+    elif selected_plot == "Sungai Code Semua Tikik (DIY)":
+        plt.plot(data['Konsentrasi'])
+        plt.xlabel('Baku Mutu')
+        plt.ylabel('pH Value')
+        plt.title('Variasi pH')
+        plt.show()
 
