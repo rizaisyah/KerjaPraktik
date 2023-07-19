@@ -47,7 +47,7 @@ def main():
         plt.ylabel('pH Value')
         plt.title('Variasi pH')
         plt.show()
-        
+
     elif selected_plot == "Sungai Code Semua Tikik (DIY)":
         plt.plot(data['Konsentrasi'])
         plt.xlabel('Baku Mutu')
